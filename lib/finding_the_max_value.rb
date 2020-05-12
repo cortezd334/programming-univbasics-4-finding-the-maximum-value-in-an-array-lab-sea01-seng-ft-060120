@@ -3,7 +3,7 @@ def find_max_value(array)
   
   while count < array.length do
     numeric_array = array.sort
-    return array.last
+    return numeric_array.last
     count += 1
   end
 end
